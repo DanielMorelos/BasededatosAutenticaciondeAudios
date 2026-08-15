@@ -1,0 +1,57 @@
+{
+  "sample_id": "speaker_5",
+  "source_file": "speaker_5.wav",
+  "language": "en",
+  "tts_model": "xtts_v2",
+  "total_dur_s": 69.498625,
+  "splice": {
+    "zone": {
+      "start_s": 22.256,
+      "end_s": 22.672,
+      "duration_s": 0.416
+    },
+    "phrase": "six spoons of fresh snow peas, five thick slabs of blue cheese and maybe a snack for her brother Bob.",
+    "phrase_zone": {
+      "start_s": 10.408,
+      "end_s": 16.792,
+      "dur_s": 6.384
+    },
+    "splice_info": {
+      "real_A_s": 22.256,
+      "synthetic_s": 8.214,
+      "real_B_s": 46.827,
+      "total_s": 77.137,
+      "crossfade_ms": 80,
+      "insert_start_s": 22.256,
+      "insert_end_s": 22.672
+    }
+  },
+  "ia_segment": {
+    "phrase": "When a man looks for something beyond his reach, his friends say he is looking for the pot of gold at the end of the rainbow.",
+    "phrase_zone": {
+      "start_s": 54.28,
+      "end_s": 60.792,
+      "dur_s": 6.512
+    }
+  },
+  "structure": [
+    {
+      "part": "real_A",
+      "start_s": 0,
+      "end_s": 22.256,
+      "label": "real"
+    },
+    {
+      "part": "synthetic",
+      "start_s": 22.256,
+      "end_s": 30.47,
+      "label": "synthetic"
+    },
+    {
+      "part": "real_B",
+      "start_s": 30.47,
+      "end_s": 77.137,
+      "label": "real"
+    }
+  ]
+}

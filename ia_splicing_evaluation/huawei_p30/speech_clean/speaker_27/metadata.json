@@ -1,0 +1,57 @@
+{
+  "sample_id": "speaker_27",
+  "source_file": "speaker_27.wav",
+  "language": "en",
+  "tts_model": "xtts_v2",
+  "total_dur_s": 88.82075,
+  "splice": {
+    "zone": {
+      "start_s": 34.416,
+      "end_s": 35.504,
+      "duration_s": 1.088
+    },
+    "phrase": "We also need a small plastic snake and a big toy frog for the kids.",
+    "phrase_zone": {
+      "start_s": 20.872,
+      "end_s": 26.168,
+      "dur_s": 5.296
+    },
+    "splice_info": {
+      "real_A_s": 34.416,
+      "synthetic_s": 3.713,
+      "real_B_s": 53.317,
+      "total_s": 91.286,
+      "crossfade_ms": 80,
+      "insert_start_s": 34.416,
+      "insert_end_s": 35.504
+    }
+  },
+  "ia_segment": {
+    "phrase": "Throughout the centuries, people have explained the rainbow in various ways.",
+    "phrase_zone": {
+      "start_s": 77.576,
+      "end_s": 82.872,
+      "dur_s": 5.296
+    }
+  },
+  "structure": [
+    {
+      "part": "real_A",
+      "start_s": 0,
+      "end_s": 34.416,
+      "label": "real"
+    },
+    {
+      "part": "synthetic",
+      "start_s": 34.416,
+      "end_s": 38.129,
+      "label": "synthetic"
+    },
+    {
+      "part": "real_B",
+      "start_s": 38.129,
+      "end_s": 91.286,
+      "label": "real"
+    }
+  ]
+}
