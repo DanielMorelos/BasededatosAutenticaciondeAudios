@@ -1,0 +1,57 @@
+{
+  "sample_id": "speaker_27",
+  "source_file": "speaker_27.wav",
+  "language": "en",
+  "tts_model": "xtts_v2",
+  "total_dur_s": 88.82075,
+  "splice": {
+    "zone": {
+      "start_s": 41.488,
+      "end_s": 43.216,
+      "duration_s": 1.728
+    },
+    "phrase": "We also need a small plastic snake and a big toy frog for the kids.",
+    "phrase_zone": {
+      "start_s": 20.872,
+      "end_s": 26.168,
+      "dur_s": 5.296
+    },
+    "splice_info": {
+      "real_A_s": 41.488,
+      "synthetic_s": 6.774,
+      "real_B_s": 45.605,
+      "total_s": 93.707,
+      "crossfade_ms": 80,
+      "insert_start_s": 41.488,
+      "insert_end_s": 43.216
+    }
+  },
+  "ia_segment": {
+    "phrase": "When a man looks for something beyond his reach, his friends say he is looking for the pot of gold at the end of the rainbow.",
+    "phrase_zone": {
+      "start_s": 68.84,
+      "end_s": 76.536,
+      "dur_s": 7.696
+    }
+  },
+  "structure": [
+    {
+      "part": "real_A",
+      "start_s": 0,
+      "end_s": 41.488,
+      "label": "real"
+    },
+    {
+      "part": "synthetic",
+      "start_s": 41.488,
+      "end_s": 48.262,
+      "label": "synthetic"
+    },
+    {
+      "part": "real_B",
+      "start_s": 48.262,
+      "end_s": 93.707,
+      "label": "real"
+    }
+  ]
+}
