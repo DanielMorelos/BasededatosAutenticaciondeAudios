@@ -1,0 +1,57 @@
+{
+  "sample_id": "speaker_3",
+  "source_file": "speaker_3.wav",
+  "language": "en",
+  "tts_model": "xtts_v2",
+  "total_dur_s": 67.819125,
+  "splice": {
+    "zone": {
+      "start_s": 28.048,
+      "end_s": 28.56,
+      "duration_s": 0.512
+    },
+    "phrase": "6 spoons of fresh snow peas, 5-6 lbs of blue cheese, and maybe a snack for her brother Bob.",
+    "phrase_zone": {
+      "start_s": 10.056,
+      "end_s": 16.76,
+      "dur_s": 6.704
+    },
+    "splice_info": {
+      "real_A_s": 28.048,
+      "synthetic_s": 7.798,
+      "real_B_s": 39.259,
+      "total_s": 74.945,
+      "crossfade_ms": 80,
+      "insert_start_s": 28.048,
+      "insert_end_s": 28.56
+    }
+  },
+  "ia_segment": {
+    "phrase": "These take the shape of a long round arch with its path high above and its two ends apparently beyond the horizon.",
+    "phrase_zone": {
+      "start_s": 38.472,
+      "end_s": 44.568,
+      "dur_s": 6.096
+    }
+  },
+  "structure": [
+    {
+      "part": "real_A",
+      "start_s": 0,
+      "end_s": 28.048,
+      "label": "real"
+    },
+    {
+      "part": "synthetic",
+      "start_s": 28.048,
+      "end_s": 35.846,
+      "label": "synthetic"
+    },
+    {
+      "part": "real_B",
+      "start_s": 35.846,
+      "end_s": 74.945,
+      "label": "real"
+    }
+  ]
+}
