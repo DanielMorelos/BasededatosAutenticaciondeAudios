@@ -1,0 +1,59 @@
+{
+  "sample_id": "speaker_30",
+  "source_file": "speaker_30.wav",
+  "language": "en",
+  "tts_model": "xtts_v2",
+  "total_dur_s": 87.4330625,
+  "snr_db": 20,
+  "noise_added": true,
+  "splice": {
+    "zone": {
+      "start_s": 62.768,
+      "end_s": 63.376,
+      "duration_s": 0.608
+    },
+    "phrase": "five thick slabs of blue cheese and maybe a snack for her brother Bob.",
+    "phrase_zone": {
+      "start_s": 14.344,
+      "end_s": 20.024,
+      "dur_s": 5.68
+    },
+    "splice_info": {
+      "real_A_s": 62.768,
+      "synthetic_s": 5.099,
+      "real_B_s": 24.057,
+      "total_s": 91.764,
+      "crossfade_ms": 80,
+      "insert_start_s": 62.768,
+      "insert_end_s": 63.376
+    }
+  },
+  "ia_segment": {
+    "phrase": "Throughout the centuries, people have explained the rainbow in various ways.",
+    "phrase_zone": {
+      "start_s": 76.296,
+      "end_s": 81.4,
+      "dur_s": 5.104
+    }
+  },
+  "structure": [
+    {
+      "part": "real_A",
+      "start_s": 0,
+      "end_s": 62.768,
+      "label": "real"
+    },
+    {
+      "part": "synthetic",
+      "start_s": 62.768,
+      "end_s": 67.867,
+      "label": "synthetic"
+    },
+    {
+      "part": "real_B",
+      "start_s": 67.867,
+      "end_s": 91.764,
+      "label": "real"
+    }
+  ]
+}

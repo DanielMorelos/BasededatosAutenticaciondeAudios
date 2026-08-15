@@ -1,0 +1,57 @@
+{
+  "sample_id": "speaker_13",
+  "source_file": "speaker_13.wav",
+  "language": "en",
+  "tts_model": "xtts_v2",
+  "total_dur_s": 78.420375,
+  "splice": {
+    "zone": {
+      "start_s": 24.752,
+      "end_s": 25.456,
+      "duration_s": 0.704
+    },
+    "phrase": "Six spoons of fresh snow peas, five thick slabs of blue cheese, and maybe a snack for her brother, Robb.",
+    "phrase_zone": {
+      "start_s": 11.016,
+      "end_s": 18.68,
+      "dur_s": 7.664
+    },
+    "splice_info": {
+      "real_A_s": 24.752,
+      "synthetic_s": 9.419,
+      "real_B_s": 52.964,
+      "total_s": 86.975,
+      "crossfade_ms": 80,
+      "insert_start_s": 24.752,
+      "insert_end_s": 25.456
+    }
+  },
+  "ia_segment": {
+    "phrase": "When the sunlight strikes, rain drops in the air, they act as a prism and form a rainbow.",
+    "phrase_zone": {
+      "start_s": 32.968,
+      "end_s": 38.744,
+      "dur_s": 5.776
+    }
+  },
+  "structure": [
+    {
+      "part": "real_A",
+      "start_s": 0,
+      "end_s": 24.752,
+      "label": "real"
+    },
+    {
+      "part": "synthetic",
+      "start_s": 24.752,
+      "end_s": 34.171,
+      "label": "synthetic"
+    },
+    {
+      "part": "real_B",
+      "start_s": 34.171,
+      "end_s": 86.975,
+      "label": "real"
+    }
+  ]
+}
