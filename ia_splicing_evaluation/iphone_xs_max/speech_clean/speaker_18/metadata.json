@@ -1,0 +1,57 @@
+{
+  "sample_id": "speaker_18",
+  "source_file": "speaker_18.wav",
+  "language": "en",
+  "tts_model": "xtts_v2",
+  "total_dur_s": 65.749,
+  "splice": {
+    "zone": {
+      "start_s": 36.944,
+      "end_s": 37.36,
+      "duration_s": 0.416
+    },
+    "phrase": "she can scoop these things into three red bags and we will go meet her Wednesday at the train station.",
+    "phrase_zone": {
+      "start_s": 22.344,
+      "end_s": 27.576,
+      "dur_s": 5.232
+    },
+    "splice_info": {
+      "real_A_s": 36.944,
+      "synthetic_s": 5.985,
+      "real_B_s": 28.389,
+      "total_s": 71.158,
+      "crossfade_ms": 80,
+      "insert_start_s": 36.944,
+      "insert_end_s": 37.36
+    }
+  },
+  "ia_segment": {
+    "phrase": "These take the shape of a long round arch with its path high above and its two ends apparently beyond the horizon. There is, according to legend, a boiling pot of gold at one end.",
+    "phrase_zone": {
+      "start_s": 37.48,
+      "end_s": 47.512,
+      "dur_s": 10.032
+    }
+  },
+  "structure": [
+    {
+      "part": "real_A",
+      "start_s": 0,
+      "end_s": 36.944,
+      "label": "real"
+    },
+    {
+      "part": "synthetic",
+      "start_s": 36.944,
+      "end_s": 42.929,
+      "label": "synthetic"
+    },
+    {
+      "part": "real_B",
+      "start_s": 42.929,
+      "end_s": 71.158,
+      "label": "real"
+    }
+  ]
+}

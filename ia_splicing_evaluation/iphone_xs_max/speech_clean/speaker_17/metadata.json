@@ -1,0 +1,57 @@
+{
+  "sample_id": "speaker_17",
+  "source_file": "speaker_17.wav",
+  "language": "en",
+  "tts_model": "xtts_v2",
+  "total_dur_s": 86.956,
+  "splice": {
+    "zone": {
+      "start_s": 41.456,
+      "end_s": 41.968,
+      "duration_s": 0.512
+    },
+    "phrase": "she can scoop these things into three red bags and we will go meet her Wednesday at the train station.",
+    "phrase_zone": {
+      "start_s": 28.232,
+      "end_s": 34.776,
+      "dur_s": 6.544
+    },
+    "splice_info": {
+      "real_A_s": 41.456,
+      "synthetic_s": 5.611,
+      "real_B_s": 44.988,
+      "total_s": 91.895,
+      "crossfade_ms": 80,
+      "insert_start_s": 41.456,
+      "insert_end_s": 41.968
+    }
+  },
+  "ia_segment": {
+    "phrase": "When a man looks for something beyond his reach, his friend say he is looking for the pot of gold at the end of the rainbow.",
+    "phrase_zone": {
+      "start_s": 69.416,
+      "end_s": 76.056,
+      "dur_s": 6.64
+    }
+  },
+  "structure": [
+    {
+      "part": "real_A",
+      "start_s": 0,
+      "end_s": 41.456,
+      "label": "real"
+    },
+    {
+      "part": "synthetic",
+      "start_s": 41.456,
+      "end_s": 47.067,
+      "label": "synthetic"
+    },
+    {
+      "part": "real_B",
+      "start_s": 47.067,
+      "end_s": 91.895,
+      "label": "real"
+    }
+  ]
+}
