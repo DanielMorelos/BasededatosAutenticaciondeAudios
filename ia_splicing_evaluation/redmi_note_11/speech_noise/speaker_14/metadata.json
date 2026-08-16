@@ -1,0 +1,59 @@
+{
+  "sample_id": "speaker_14",
+  "source_file": "speaker_14.wav",
+  "language": "en",
+  "tts_model": "xtts_v2",
+  "total_dur_s": 72.8006875,
+  "snr_db": 20,
+  "noise_added": true,
+  "splice": {
+    "zone": {
+      "start_s": 39.504,
+      "end_s": 40.624,
+      "duration_s": 1.12
+    },
+    "phrase": "6 spoons of fresh no peas, 5 thick slabs of blue cheese and maybe a snack for her brother Bob.",
+    "phrase_zone": {
+      "start_s": 11.368,
+      "end_s": 17.016,
+      "dur_s": 5.648
+    },
+    "splice_info": {
+      "real_A_s": 39.504,
+      "synthetic_s": 9.185,
+      "real_B_s": 32.177,
+      "total_s": 80.706,
+      "crossfade_ms": 80,
+      "insert_start_s": 39.504,
+      "insert_end_s": 40.624
+    }
+  },
+  "ia_segment": {
+    "phrase": "When a man looks for something beyond his reach, his friends say he is looking for the part of gold at the end of the rainbow.",
+    "phrase_zone": {
+      "start_s": 57.352,
+      "end_s": 62.584,
+      "dur_s": 5.232
+    }
+  },
+  "structure": [
+    {
+      "part": "real_A",
+      "start_s": 0,
+      "end_s": 39.504,
+      "label": "real"
+    },
+    {
+      "part": "synthetic",
+      "start_s": 39.504,
+      "end_s": 48.689,
+      "label": "synthetic"
+    },
+    {
+      "part": "real_B",
+      "start_s": 48.689,
+      "end_s": 80.706,
+      "label": "real"
+    }
+  ]
+}
