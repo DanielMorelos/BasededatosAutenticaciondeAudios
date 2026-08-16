@@ -1,0 +1,57 @@
+{
+  "sample_id": "speaker_8",
+  "source_file": "speaker_8.wav",
+  "language": "en",
+  "tts_model": "xtts_v2",
+  "total_dur_s": 75.4888125,
+  "splice": {
+    "zone": {
+      "start_s": 41.936,
+      "end_s": 42.768,
+      "duration_s": 0.832
+    },
+    "phrase": "When the sunlight strikes raindrops in the air, they act as a prism and form a rainbow.",
+    "phrase_zone": {
+      "start_s": 31.496,
+      "end_s": 36.536,
+      "dur_s": 5.04
+    },
+    "splice_info": {
+      "real_A_s": 41.936,
+      "synthetic_s": 5.707,
+      "real_B_s": 32.721,
+      "total_s": 80.204,
+      "crossfade_ms": 80,
+      "insert_start_s": 41.936,
+      "insert_end_s": 42.768
+    }
+  },
+  "ia_segment": {
+    "phrase": "These take the shape of a long round arc with its path high above and it's two ends apparently beyond the horizon.",
+    "phrase_zone": {
+      "start_s": 42.888,
+      "end_s": 49.784,
+      "dur_s": 6.896
+    }
+  },
+  "structure": [
+    {
+      "part": "real_A",
+      "start_s": 0,
+      "end_s": 41.936,
+      "label": "real"
+    },
+    {
+      "part": "synthetic",
+      "start_s": 41.936,
+      "end_s": 47.643,
+      "label": "synthetic"
+    },
+    {
+      "part": "real_B",
+      "start_s": 47.643,
+      "end_s": 80.204,
+      "label": "real"
+    }
+  ]
+}
