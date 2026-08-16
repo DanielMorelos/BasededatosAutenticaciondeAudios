@@ -1,0 +1,57 @@
+{
+  "sample_id": "speaker_4",
+  "source_file": "speaker_4.wav",
+  "language": "en",
+  "tts_model": "xtts_v2",
+  "total_dur_s": 79.9589375,
+  "splice": {
+    "zone": {
+      "start_s": 42.832,
+      "end_s": 43.76,
+      "duration_s": 0.928
+    },
+    "phrase": "When the sunlight strikes raindrops in the air, the actors are prism and form a rainbow.",
+    "phrase_zone": {
+      "start_s": 32.264,
+      "end_s": 37.56,
+      "dur_s": 5.296
+    },
+    "splice_info": {
+      "real_A_s": 42.832,
+      "synthetic_s": 6.262,
+      "real_B_s": 36.199,
+      "total_s": 85.133,
+      "crossfade_ms": 80,
+      "insert_start_s": 42.832,
+      "insert_end_s": 43.76
+    }
+  },
+  "ia_segment": {
+    "phrase": "These take the shape of a long round arch with its path high above and its two ends apparently beyond the horizon.",
+    "phrase_zone": {
+      "start_s": 43.88,
+      "end_s": 50.648,
+      "dur_s": 6.768
+    }
+  },
+  "structure": [
+    {
+      "part": "real_A",
+      "start_s": 0,
+      "end_s": 42.832,
+      "label": "real"
+    },
+    {
+      "part": "synthetic",
+      "start_s": 42.832,
+      "end_s": 49.094,
+      "label": "synthetic"
+    },
+    {
+      "part": "real_B",
+      "start_s": 49.094,
+      "end_s": 85.133,
+      "label": "real"
+    }
+  ]
+}

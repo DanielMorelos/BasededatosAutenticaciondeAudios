@@ -1,0 +1,59 @@
+{
+  "sample_id": "speaker_4",
+  "source_file": "speaker_4.wav",
+  "language": "en",
+  "tts_model": "xtts_v2",
+  "total_dur_s": 79.9589375,
+  "snr_db": 20,
+  "noise_added": true,
+  "splice": {
+    "zone": {
+      "start_s": 37.648,
+      "end_s": 38.448,
+      "duration_s": 0.8
+    },
+    "phrase": "When the sunlight strikes raindrops in the air, the actors are prism and form a rainbow.",
+    "phrase_zone": {
+      "start_s": 32.264,
+      "end_s": 37.528,
+      "dur_s": 5.264
+    },
+    "splice_info": {
+      "real_A_s": 37.648,
+      "synthetic_s": 5.942,
+      "real_B_s": 41.511,
+      "total_s": 84.941,
+      "crossfade_ms": 80,
+      "insert_start_s": 37.648,
+      "insert_end_s": 38.448
+    }
+  },
+  "ia_segment": {
+    "phrase": "When a man looks for something beyond his reach, his friends say he is looking for the pot of gold at the end of the rainbow.",
+    "phrase_zone": {
+      "start_s": 62.12,
+      "end_s": 68.376,
+      "dur_s": 6.256
+    }
+  },
+  "structure": [
+    {
+      "part": "real_A",
+      "start_s": 0,
+      "end_s": 37.648,
+      "label": "real"
+    },
+    {
+      "part": "synthetic",
+      "start_s": 37.648,
+      "end_s": 43.59,
+      "label": "synthetic"
+    },
+    {
+      "part": "real_B",
+      "start_s": 43.59,
+      "end_s": 84.941,
+      "label": "real"
+    }
+  ]
+}
