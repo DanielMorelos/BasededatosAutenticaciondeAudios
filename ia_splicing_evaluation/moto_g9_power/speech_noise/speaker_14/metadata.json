@@ -1,0 +1,59 @@
+{
+  "sample_id": "speaker_14",
+  "source_file": "speaker_14.wav",
+  "language": "en",
+  "tts_model": "xtts_v2",
+  "total_dur_s": 72.8006875,
+  "snr_db": 20,
+  "noise_added": true,
+  "splice": {
+    "zone": {
+      "start_s": 39.504,
+      "end_s": 40.624,
+      "duration_s": 1.12
+    },
+    "phrase": "6 spoons of fresh no peas, 5 thick slabs of blue cheese and maybe a snack for her brother Bob.",
+    "phrase_zone": {
+      "start_s": 11.368,
+      "end_s": 17.016,
+      "dur_s": 5.648
+    },
+    "splice_info": {
+      "real_A_s": 39.504,
+      "synthetic_s": 6.081,
+      "real_B_s": 32.177,
+      "total_s": 77.602,
+      "crossfade_ms": 80,
+      "insert_start_s": 39.504,
+      "insert_end_s": 40.624
+    }
+  },
+  "ia_segment": {
+    "phrase": "These take the shape of a long-wraened arch with its path high above and it's too to answer painly beyond the horizon.",
+    "phrase_zone": {
+      "start_s": 40.744,
+      "end_s": 46.2,
+      "dur_s": 5.456
+    }
+  },
+  "structure": [
+    {
+      "part": "real_A",
+      "start_s": 0,
+      "end_s": 39.504,
+      "label": "real"
+    },
+    {
+      "part": "synthetic",
+      "start_s": 39.504,
+      "end_s": 45.585,
+      "label": "synthetic"
+    },
+    {
+      "part": "real_B",
+      "start_s": 45.585,
+      "end_s": 77.602,
+      "label": "real"
+    }
+  ]
+}
