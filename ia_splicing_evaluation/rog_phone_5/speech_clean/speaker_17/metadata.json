@@ -1,0 +1,57 @@
+{
+  "sample_id": "speaker_17",
+  "source_file": "speaker_17.wav",
+  "language": "en",
+  "tts_model": "xtts_v2",
+  "total_dur_s": 86.956,
+  "splice": {
+    "zone": {
+      "start_s": 27.088,
+      "end_s": 28.08,
+      "duration_s": 0.992
+    },
+    "phrase": "six spoons of fresh snow peas, five thick slabs of blue cheese and maybe a snack for her brother Bob.",
+    "phrase_zone": {
+      "start_s": 12.424,
+      "end_s": 20.184,
+      "dur_s": 7.76
+    },
+    "splice_info": {
+      "real_A_s": 27.088,
+      "synthetic_s": 6.678,
+      "real_B_s": 58.876,
+      "total_s": 92.482,
+      "crossfade_ms": 80,
+      "insert_start_s": 27.088,
+      "insert_end_s": 28.08
+    }
+  },
+  "ia_segment": {
+    "phrase": "There is, according to legend, a boiling pot of gold at one end.",
+    "phrase_zone": {
+      "start_s": 57.896,
+      "end_s": 62.968,
+      "dur_s": 5.072
+    }
+  },
+  "structure": [
+    {
+      "part": "real_A",
+      "start_s": 0,
+      "end_s": 27.088,
+      "label": "real"
+    },
+    {
+      "part": "synthetic",
+      "start_s": 27.088,
+      "end_s": 33.766,
+      "label": "synthetic"
+    },
+    {
+      "part": "real_B",
+      "start_s": 33.766,
+      "end_s": 92.482,
+      "label": "real"
+    }
+  ]
+}
