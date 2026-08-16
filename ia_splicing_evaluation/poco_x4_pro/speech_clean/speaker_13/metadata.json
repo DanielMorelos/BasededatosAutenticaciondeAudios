@@ -1,0 +1,57 @@
+{
+  "sample_id": "speaker_13",
+  "source_file": "speaker_13.wav",
+  "language": "en",
+  "tts_model": "xtts_v2",
+  "total_dur_s": 78.420375,
+  "splice": {
+    "zone": {
+      "start_s": 52.88,
+      "end_s": 53.616,
+      "duration_s": 0.736
+    },
+    "phrase": "five tick slabs of blue cheese and maybe a snack for her brother, Bob.",
+    "phrase_zone": {
+      "start_s": 13.608,
+      "end_s": 18.68,
+      "dur_s": 5.072
+    },
+    "splice_info": {
+      "real_A_s": 52.88,
+      "synthetic_s": 6.87,
+      "real_B_s": 24.804,
+      "total_s": 84.394,
+      "crossfade_ms": 80,
+      "insert_start_s": 52.88,
+      "insert_end_s": 53.616
+    }
+  },
+  "ia_segment": {
+    "phrase": "When the sunlight strikes, rain drops in the air, they act as a prism and form a rainbow.",
+    "phrase_zone": {
+      "start_s": 32.936,
+      "end_s": 38.712,
+      "dur_s": 5.776
+    }
+  },
+  "structure": [
+    {
+      "part": "real_A",
+      "start_s": 0,
+      "end_s": 52.88,
+      "label": "real"
+    },
+    {
+      "part": "synthetic",
+      "start_s": 52.88,
+      "end_s": 59.75,
+      "label": "synthetic"
+    },
+    {
+      "part": "real_B",
+      "start_s": 59.75,
+      "end_s": 84.394,
+      "label": "real"
+    }
+  ]
+}
