@@ -1,0 +1,57 @@
+{
+  "sample_id": "speaker_20",
+  "source_file": "speaker_20.wav",
+  "language": "en",
+  "tts_model": "xtts_v2",
+  "total_dur_s": 69.221875,
+  "splice": {
+    "zone": {
+      "start_s": 34.64,
+      "end_s": 35.184,
+      "duration_s": 0.544
+    },
+    "phrase": "She can scoop these things into three red bags and we will go meet her Wednesday at the train station.",
+    "phrase_zone": {
+      "start_s": 23.56,
+      "end_s": 28.856,
+      "dur_s": 5.296
+    },
+    "splice_info": {
+      "real_A_s": 34.64,
+      "synthetic_s": 5.75,
+      "real_B_s": 34.038,
+      "total_s": 74.268,
+      "crossfade_ms": 80,
+      "insert_start_s": 34.64,
+      "insert_end_s": 35.184
+    }
+  },
+  "ia_segment": {
+    "phrase": "These take the shape of a long round arch with its path high above and its two ends apparently beyond the horizon.",
+    "phrase_zone": {
+      "start_s": 39.784,
+      "end_s": 45.816,
+      "dur_s": 6.032
+    }
+  },
+  "structure": [
+    {
+      "part": "real_A",
+      "start_s": 0,
+      "end_s": 34.64,
+      "label": "real"
+    },
+    {
+      "part": "synthetic",
+      "start_s": 34.64,
+      "end_s": 40.39,
+      "label": "synthetic"
+    },
+    {
+      "part": "real_B",
+      "start_s": 40.39,
+      "end_s": 74.268,
+      "label": "real"
+    }
+  ]
+}
