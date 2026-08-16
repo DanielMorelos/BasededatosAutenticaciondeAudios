@@ -1,0 +1,59 @@
+{
+  "sample_id": "speaker_17",
+  "source_file": "speaker_17.wav",
+  "language": "en",
+  "tts_model": "xtts_v2",
+  "total_dur_s": 86.956,
+  "snr_db": 20,
+  "noise_added": true,
+  "splice": {
+    "zone": {
+      "start_s": 34.896,
+      "end_s": 35.696,
+      "duration_s": 0.8
+    },
+    "phrase": "When the sunlight strikes, raindrops in the air, they act as a prism and form a rainbow.",
+    "phrase_zone": {
+      "start_s": 35.816,
+      "end_s": 41.304,
+      "dur_s": 5.488
+    },
+    "splice_info": {
+      "real_A_s": 34.896,
+      "synthetic_s": 6.817,
+      "real_B_s": 51.26,
+      "total_s": 92.813,
+      "crossfade_ms": 80,
+      "insert_start_s": 34.896,
+      "insert_end_s": 35.696
+    }
+  },
+  "ia_segment": {
+    "phrase": "There is, according to legend, a boiling pot of gold out one end.",
+    "phrase_zone": {
+      "start_s": 57.896,
+      "end_s": 62.968,
+      "dur_s": 5.072
+    }
+  },
+  "structure": [
+    {
+      "part": "real_A",
+      "start_s": 0,
+      "end_s": 34.896,
+      "label": "real"
+    },
+    {
+      "part": "synthetic",
+      "start_s": 34.896,
+      "end_s": 41.713,
+      "label": "synthetic"
+    },
+    {
+      "part": "real_B",
+      "start_s": 41.713,
+      "end_s": 92.813,
+      "label": "real"
+    }
+  ]
+}
